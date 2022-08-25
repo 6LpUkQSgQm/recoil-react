@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add recoil
+
+PATH: 
+  /home/test/.deno/bin:/home/test/.deno/bin:/home/test/miniconda3/bin:/home/test/miniconda3/condabin:/home/test/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/test/bin:/opt/jdk-17/bin:/home/test/bin:/opt/jdk-17/bin:/usr/local/go/bin:/opt/jdk-17/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/home/test/.cache/yarn/v6/npm-core-js-3.25.0-be71d9e0dd648ffd70c44a7ec2319d039357eceb-integrity/node_modules/core-js/.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "recoil-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "cra-template": "1.2.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-scripts": "5.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
