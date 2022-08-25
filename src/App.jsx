@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <Container sx={{ boxShadow: 2 }}>
+      <Container sx={{ mt:2, textAlign:'center', p: 3, boxShadow: 2 }}>
         <Typography variant="h4">
           Simple shop with Recoil store and React
         </Typography>
@@ -42,9 +42,7 @@ function App() {
         <Button variant="outlined" sx={{ m: 1 }}>
           Add a product
         </Button>
-      </Container>
-      <Container >
-        <Grid sx={{ mt: 2 }} rowSpacing={1} container>
+        <Grid rowSpacing={1} container>
           {products.map((product) => (
             <Grid item lg={4} md={4} spacing={3}>
               <Box sx={{ p: 1, boxShadow: 2 }}>
